@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>welcome to Django</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<h2> BOOK FORM </h2>
+<hr>
+<form action="{% url 'homepage' %}" method="post">
+    {% csrf_token %}
+    {% if single_book%}
+    Book Id:-<input type ="number" name="bid" value="{{single_book.id}}" readonly><br><br>
+    {% endif %}
+    Book Name:-<input type ="text" name="bname" value="{{single_book.name}}" placeholder="Enter Book Name"><br><br>
+    Book Price :- <input type = "number" name="bprice" value="{{single_book.price}}" placeholder="Enter Book Price"><br><br>
+    Book Qty :- <input type = "number" name="bqty" value="{{single_book.qty}}" placeholder="Enter Book Quantity"><br><br>
+    <input type = "submit" value = "Submit"  class="btn btn-success"> 
+
+    {% comment %} <a href="{% url 'delete_all_book' %}" class="btn btn-primary">Delete All</a>  {% endcomment %}
+
+
+</form>
+
+<div class="btn-group btn-group-lg" role="group" aria-label="...">
+
+<!--Button to delete all data -->
+<form action = "{% url 'delete_all_book' %}" method="post" >
+    {% csrf_token %}
+    <input type = "submit" value="Delete All" class="btn btn-danger"> 
+</form>
+
+<!--Button to soft delete  -->
+<form action = "{% url 'soft_delete'  %}" method="post">
+    {% csrf_token %}
+    <input type = "submit" value="Soft Delete" class="btn btn-warning" >
+  
+</form>
+
+<!--Button to show all data -->
+<form action = "{% url 'show_all_book'  %}" method="post">
+    {% csrf_token %}
+    <input type = "submit" value="Show Book" class="btn btn-info" >
+  
+</form>
+</div>
+
+{% comment %} <a href="{% url 'show_all_book'%}" class="btn btn-outline-primary" >show book</a> {% endcomment %}
+{% comment %} <a href="{% url 'soft_delete'%}">Soft Delete</a> {% endcomment %}
+
+
+
+</body>
+</html>

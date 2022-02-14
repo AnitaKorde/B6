@@ -1,0 +1,94 @@
+
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+<QueryDict: {}>
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+<QueryDict: {'csrfmiddlewaretoken': ['mtGF5l1AD0N1zcR1yHIkJQ2kjzTsoCSFTnPPQMwX78OQWoRzaLZBTMU04B389kGu']}>
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+<QueryDict: {'csrfmiddlewaretoken': ['qHGUUa7DpJk7EtFPZmJrStkOQSLfIyPsXBP4FBC0TRlW1FFnBq0I2pcuBUVVtgDh'], 'bid': ['25'], 'bname': ['book10'], 'bprice': ['567'], 'bqty': ['5']}>
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+<QueryDict: {}>
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+In show all page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+<QueryDict: {'csrfmiddlewaretoken': ['c07xVzzD8mX0Mv4VqsA1FmeAhsnc0T0eJUgHG040CuYP9H4t2wRiPi6g2uxSLBO3']}>
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+<QueryDict: {'csrfmiddlewaretoken': ['tL7AXi93eWvhQW7r8teLs6u2zvcOEAkW0FgKIJEqI4w6d87ZKxv2C2mIkxmupi8L'], 'bid': ['18'], 'bname': ['book2'], 'bprice': ['1234'], 'bqty': ['4']}>
+In show all page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+<QueryDict: {}>
+In edit book page
+book8
+<QueryDict: {}>
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book8>, <Book: book10>]>
+<QueryDict: {'csrfmiddlewaretoken': ['Dwa7IzAzSoqqWLC6GXiXdq4OkiLfkYI0aqjht05WmwrfjXCEi1zenmWu5kVV5GwP'], 'bid': ['24'], 'bname': ['book08'], 'bprice': ['345'], 'bqty': ['5']}>
+In show all book page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book08>, <Book: book10>]>
+<QueryDict: {}>
+In edit book page
+book08
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book08>, <Book: book10>]>
+<QueryDict: {'csrfmiddlewaretoken': ['BJ2aDXGocMYHX7fxLiTC4jqAIhnnaxQm8DbkoobLGUZwkjf5nmaTefigtjx3VfEb'], 'bid': ['24'], 'bname': ['book08'], 'bprice': ['345'], 'bqty': ['5']}>
+In show all book page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book08>, <Book: book10>]>
+<QueryDict: {}>
+In show all book page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book08>, <Book: book10>]>
+<QueryDict: {}>
+In home page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book08>, <Book: book10>]>
+In show all book page
+<QuerySet [<Book: book2>, <Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book08>, <Book: book10>]>
+<QueryDict: {'csrfmiddlewaretoken': ['UzlNYv6hPCMOytWvKhosd5KTxVYYIrYgrtuXJWBEjKNDVFW3mlFJn1CziX8Et9M5']}>
+In delete perticular book data page
+book2
+In show all book page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book08>, <Book: book10>]>
+<QueryDict: {}>
+In delete perticular book data page
+In show all book page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book10>]>
+<QueryDict: {}>
+In home page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book10>]>
+In home page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book10>]>
+In delete book page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>]>
+In delete book page
+<QuerySet [<Book: book4>, <Book: book5>]>
+In delete book page
+<QuerySet [<Book: book4>]>
+In home page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book10>]>
+In show all book page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book10>]>
+<QueryDict: {'csrfmiddlewaretoken': ['xC02RppUfYREQkDsON00XPP9PAl7AbjJ4w9cCQUhJ6StdwD0qRhh7LHPACvNlT7y']}>
+In show all book page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book10>]>
+<QueryDict: {}>
+In show all book page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book10>]>
+<QueryDict: {}>
+In show all book page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book10>]>
+<QueryDict: {}>
+In home page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>, <Book: book7>, <Book: book10>]>
+In delete book page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>]>
+In delete book page
+<QuerySet [<Book: book3>, <Book: book4>, <Book: book5>, <Book: book6>]>
