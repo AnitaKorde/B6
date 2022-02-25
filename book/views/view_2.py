@@ -4,3 +4,8 @@ def view_c(request):
 
 def view_d(request):
     return HttpResponse("in view_d")
+
+
+
+def test_view(request):
+    return HttpResponse("No changes done")
